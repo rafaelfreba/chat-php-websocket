@@ -19,6 +19,10 @@ $(window).on('load',()=>{
         $('#msg').val('')
       }
     });
+
+    $(document).on('keypress',(e)=>{
+      if(e.which == 13) $('#btn-send').click()
+    })
 })
 
 function showMessage(how, data){

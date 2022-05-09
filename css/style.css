@@ -12,13 +12,6 @@ body {
   overflow-y: scroll !important;
 }
 
-/* #id_user {
-  background-color: white;
-  height: 10rem;
-  color: black;
-  font-weight: bold;
-} */
-
 .btn-padrao {
   background-color: rgb(93, 110, 243);
   color: white;
@@ -47,4 +40,17 @@ body {
   color: white;
   border-bottom-right-radius: 0.3rem !important;
   border-bottom-left-radius: 0.3rem !important;
+}
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, rgb(93, 110, 243));
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent, rgb(226, 73, 127));
 }
