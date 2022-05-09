@@ -1,0 +1,19 @@
+{
+  "description": "Chat Websocket PHP and Ratchet",
+  "licence": "MIT",
+  "author": [
+    {
+      "name": "Rafael Batista",
+      "email": "rafaelfreba@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Chat\\": "src/"
+    }
+  },
+  "require": {
+    "cboden/ratchet": "^0.4.1"
+  }
+}

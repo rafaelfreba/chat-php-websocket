@@ -1,0 +1,50 @@
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  font-family: "Titillium Web", sans-serif;
+}
+
+.card-body {
+  overflow-y: scroll !important;
+}
+
+/* #id_user {
+  background-color: white;
+  height: 10rem;
+  color: black;
+  font-weight: bold;
+} */
+
+.btn-padrao {
+  background-color: rgb(93, 110, 243);
+  color: white;
+  font-weight: bold;
+}
+
+.btn-padrao:hover {
+  background-color: rgb(226, 73, 127);
+  color: white;
+  font-weight: bold;
+}
+
+.me {
+  background-color: rgb(93, 110, 243);
+  border-top-right-radius: 0.3rem !important;
+}
+
+.other {
+  background-color: rgb(226, 73, 127);
+  border-top-left-radius: 0.3rem !important;
+}
+
+.box-msg {
+  margin: 25px 0px;
+  width: 80%;
+  color: white;
+  border-bottom-right-radius: 0.3rem !important;
+  border-bottom-left-radius: 0.3rem !important;
+}
